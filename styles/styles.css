@@ -1,4 +1,54 @@
+/******************************** CSS RESETS ********************************/
+
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-weight: normal;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+main, article, aside, figure, footer, header, nav, section, details, summary {display: block;}
+
+html {
+	box-sizing: border-box;
+
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+/******************************** CODE FROM HERE ********************************/
+
+:root{
+--bg: #282128;
+--font-regular: 'abc_favorit_trialregular';
+--font-bold: 'abc_favorit_trialbold';
+--font-medium: 'abc_favorit_trialmedium';
+--font-light: 'abc_favorit_triallight';
+}
 body
 {
-background-color:aqua;
+background-color: var(--bg);
+font-family:var(--font-regular);
+
+}
+
+.head-container{
+ width: 80%;
+ display: flex;
+ justify-content: center;
+ margin: 2rem auto;
+ background-color:burlywood;
+
+}
+
+.title {
+font-family:var(--font-bold);
+font-size: 10vw;
 }
