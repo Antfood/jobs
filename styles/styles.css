@@ -1,54 +1,138 @@
 /******************************** CSS RESETS ********************************/
 
-html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font-weight: normal;
-	vertical-align: baseline;
-	background: transparent;
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins,
+kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul,
+li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead,
+tr, th, td, article, aside, figure, footer, header, menu, nav, section,
+time, mark, audio, video, details, summary {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: normal;
+    vertical-align: baseline;
+    background: transparent;
 }
 
-main, article, aside, figure, footer, header, nav, section, details, summary {display: block;}
+main, article, aside, figure, footer, header, nav, section,
+details, summary {
+    display: block;
+}
 
 html {
-	box-sizing: border-box;
-
+    box-sizing: border-box;
 }
 
 *,
 *:before,
 *:after {
-	box-sizing: inherit;
+    box-sizing: inherit;
 }
+
 
 /******************************** CODE FROM HERE ********************************/
 
-:root{
---bg: #282128;
---font-regular: 'abc_favorit_trialregular';
---font-bold: 'abc_favorit_trialbold';
---font-medium: 'abc_favorit_trialmedium';
---font-light: 'abc_favorit_triallight';
-}
-body
-{
-background-color: var(--bg);
-font-family:var(--font-regular);
-
+:root {
+    --bg: #282128;
+    --red: #F04F53;
+    --margin-full: 10rem;
+    --margin-half: 5rem;
+    --margin-third: 3.3rem;
+    --font-regular: 'abc_favorit_trialregular';
+    --font-bold: 'abc_favorit_trialbold';
+    --font-medium: 'abc_favorit_trialmedium';
+    --font-light: 'abc_favorit_triallight';
 }
 
-.head-container{
- width: 80%;
- display: flex;
- justify-content: center;
- margin: 2rem auto;
- background-color:burlywood;
+body {
+    background-color: var(--bg);
+    font-family: var(--font-regular);
+    color: white;
+    font-size: 1rem;
+}
+
+
+/* HEADER */
+
+.header-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: var(--margin-full) auto;
+}
+
+.header-title {
+    font-size: 10vw;
+}
+
+.header-star {
+    font-size: 10vw;
+    color: var(--red);
+}
+
+.header-copy {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-copy span {
+    font-family: var(--font-light);
+    width: 40%;
+    font-size: 25px;
+}
+
+
+/* DIVIDER */
+
+.divider {
+    width: 80%;
+    margin: var(--margin-half) auto;
+    opacity: 0.5;
+}
+
+.divider hr {
+    border-top: 1px solid white;
+}
+
+/* BODY */
+
+.body-container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.sub-title{
+    width: 100%;
+    font-size: 3rem
+}
+
+.body-content{
+    width: 100%;
+    margin-top:var(--margin);
+    display: flex;
 
 }
 
-.title {
-font-family:var(--font-bold);
-font-size: 10vw;
+.content-left{
+    margin-top: var(--margin-third);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-right{
+   width: 50%;
+}
+
+
+.content-copy{
+margin: 1rem 0;
+line-height: 1.6;
+
 }
