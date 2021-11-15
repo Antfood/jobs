@@ -1,8 +1,8 @@
 ## get started
 
-In order for us to work together you need to be able to push changes to git.
+Pushing to github will enable us to collaborate.  Let's make sure you are able to do so using git.
 
-**note:** All the commands should be executed in the command line. In vscode, you can open a terminal window with **ctrl + `**.
+**note:** All the commands should be executed in the command line. In vscode, you can open a terminal window with `**ctrl + `**`.
 
 Make sure you have git install
 
@@ -17,11 +17,11 @@ Navigate to the folder you want to work locally. Clone this repo:
     git clone https://github.com/Antfood/jobs.git
 
 
-## Get live-reload running
+## Get live reload running
  
- Live makes your life much easier when you are working with html and css. It will basically reload the page in the browser whenever you hit save in the document you are editing.
+ Live reload makes your life much easier when working with html and css. It will basically reload the page in the browser whenever you hit save in the document you are editing.
 
-check if npm and node ared installed:
+check if npm and node are installed:
 
       node -v
       npm -v
@@ -38,7 +38,7 @@ While in the directory of the project running the following command:
 
     browser-sync start --server --files "./*.html" "styles/*.css" "fonts/*"
 
-Visit `http://localhost:3000` to see that you are working on.  Everything you make changes to the project it will automatically update the browser.
+Visit `[http://localhost:3000](http://localhost:3000)` to see that you are working on.  Everything you make changes to the project it will automatically update the browser.
 
 
 ## Pushing your work
