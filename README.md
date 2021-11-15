@@ -36,7 +36,7 @@ install brownser sync using npm.
 
 While in the directory of the project running the following command:
 
-    browser-sync start --server --files "./*" 
+    browser-sync start --server --files "./*.html" "styles/*.css" "fonts/*"
 
 Visit `http://localhost:3000` to see that you are working on.  Everything you make changes to the project it will automatically update the browser.
 
