@@ -22,6 +22,10 @@ check if npm and node ared installed:
       node -v
       npm -v
 
+Again, use brew if you need to install node:
+
+     brew install node
+
 install brownser sync using npm. 
 
      npm install -g browser-sync
