@@ -36,9 +36,12 @@ html {
 :root {
     --bg: #282128;
     --red: #F04F53;
+    --hover:#ff585b; 
     --margin-full: 10rem;
     --margin-half: 5rem;
+    --margin-twothirds: 6.6rem;
     --margin-third: 3.3rem;
+    --paragraph-break: 1rem;
     --font-regular: 'abc_favorit_trialregular';
     --font-bold: 'abc_favorit_trialbold';
     --font-medium: 'abc_favorit_trialmedium';
@@ -52,6 +55,21 @@ body {
     font-size: 1rem;
 }
 
+a:link {
+    color:var(--red);
+    transition: all 0.2s;
+  }
+
+a:visited {
+    color:var(--red);
+    transition: all 0.2s;
+  }
+
+
+  a:hover {
+    color:var(--hover);
+    transition: all 0.2s;
+  }
 
 /* HEADER */
 
@@ -60,7 +78,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: var(--margin-full) auto;
+    margin-left:  auto;
+    margin-right:  auto;
+    margin-top: var(--margin-full);
+    margin-bottom: var(--margin-twothirds);
 }
 
 .header-title {
@@ -73,6 +94,7 @@ body {
 }
 
 .header-copy {
+    opacity: 0.9;
     margin-top: 1rem;
     display: flex;
     justify-content: flex-end;
@@ -84,6 +106,12 @@ body {
     font-size: 25px;
 }
 
+/*  AIRTABLE */
+
+.airtable-container{
+width: 80%;
+margin: var(--margin-full) auto;
+}
 
 /* DIVIDER */
 
@@ -112,27 +140,50 @@ body {
     font-size: 3rem
 }
 
-.body-content{
+.content-container{
+    opacity: 0.9;
     width: 100%;
-    margin-top:var(--margin);
     display: flex;
+    justify-content: center;
 
 }
-
-.content-left{
+.content{
     margin-top: var(--margin-third);
     width: 50%;
     display: flex;
     flex-direction: column;
 }
 
-.content-right{
-   width: 50%;
+.spacing {
+ min-width: 5%;
 }
-
 
 .content-copy{
-margin: 1rem 0;
+margin: var(--paragraph-break) 0;
 line-height: 1.6;
+}
+
+.vimeo-container
+{
+margin-top: var(--paragraph-break);
+margin-bottom: var(--paragraph-break);
+}
+
+.worklist{
+  display: flex;
+  flex-direction: column;
+}
+
+.worklist-title{
+    text-decoration: underline;
+
+    margin-top: var(--paragraph-break);
+    margin-bottom: var(--paragraph-break);
 
 }
+
+.worklist-item{
+line-height: 1.6;
+}
+
+
