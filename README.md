@@ -2,7 +2,7 @@
 
 Pushing to github will enable us to collaborate.  Let's make sure you are able to do so using git.
 
-**note:** All the commands should be executed in the command line. In vscode, you can open a terminal window with `ctrl + `\`.
+**note:** All the commands should be executed in the command line. In vscode, you can open a terminal window with ``ctrl + ` ``.
 
 Make sure you have git install
 
