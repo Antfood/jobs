@@ -1,6 +1,8 @@
 ## get started
 
-All the commands should be executed in the command line. 
+In order for us to work together you need to be able to push changes to git.
+
+**note:** All the commands should be executed in the command line. I vscode you can open a terminal window with **ctrl + `**.
 
 Make sure you have git install
 
@@ -15,7 +17,9 @@ Navigate to the folder you want to work locally. Clone this repo:
     git clone https://github.com/Antfood/jobs.git
 
 
-## Get live-reaload running
+## Get live-reload running
+ 
+ Live makes your life much easier when you are working with html and css. It will basically reload the page in the browser whenever you hit save in the document you are editing.
 
 check if npm and node ared installed:
 
