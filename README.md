@@ -2,7 +2,7 @@
 
 In order for us to work together you need to be able to push changes to git.
 
-**note:** All the commands should be executed in the command line. I vscode you can open a terminal window with **ctrl + `**.
+**note:** All the commands should be executed in the command line. In vscode, you can open a terminal window with **ctrl + `**.
 
 Make sure you have git install
 
