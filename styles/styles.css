@@ -33,6 +33,9 @@ html {
 
 /******************************** CODE FROM HERE ********************************/
 
+
+/* These are viariables. They are being used throughout css for easy adjustment */
+
 :root {
     --bg: #282128;
     --red: #F04F53;
