@@ -40,6 +40,14 @@ While in the directory of the project running the following command:
 
 Visit [http://localhost:3000](http://localhost:3000) to see that you are working on.  Everything you make changes to the project it will automatically update the browser.
 
+Alternatively, I include a shell script so you don't need to type in this huge command to start the server. First you need to set the permissions for the script.
+
+        chmod u+x start
+
+And then run:
+
+        ./start
+
 
 ## Pushing your work
 
