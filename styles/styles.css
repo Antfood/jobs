@@ -53,9 +53,9 @@ html {
 
 body {
     background-color: var(--bg);
-    font-family: var(--font-regular);
+    font-family: var(--font-light);
     color: white;
-    font-size: 1rem;
+    font-size: 20px;
 }
 
 a:link {
@@ -88,7 +88,9 @@ a:visited {
 }
 
 .header-title {
+    font-family: var(--font-regular);
     font-size: 10vw;
+    
 }
 
 .header-star {
@@ -106,7 +108,7 @@ a:visited {
 .header-copy span {
     font-family: var(--font-light);
     width: 40%;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 /*  AIRTABLE */
@@ -163,7 +165,7 @@ margin: var(--margin-full) auto;
 
 .content-copy{
 margin: var(--paragraph-break) 0;
-line-height: 1.6;
+line-height: 1.5;
 }
 
 .vimeo-container
@@ -186,7 +188,7 @@ margin-bottom: var(--paragraph-break);
 }
 
 .worklist-item{
-line-height: 1.6;
+line-height: 1.5;
 }
 
 
